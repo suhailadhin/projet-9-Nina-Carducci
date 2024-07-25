@@ -37,26 +37,40 @@
     <meta name="twitter:description" content="Nina Carducci, Photographe hors norme et professionnelle à Bordeaux">
     <meta name="twitter:image" content="https://suhailadhin.github.io/projet-9-Nina-Carducci/">
 
-    <!--Balise Script pour Google Rich Snipped-->
-    <script type="application/ld+json">
-        {
-          "@context": "https://schema.org",
-          "@type": "Photographer",
-          "name": "Nina Carducci",
-          "description": "Photographe professionnelle à Bordeaux spécialisée dans les portraits, les mariages, et les événements.",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "68 avenue Alsace-Lorraine",
-            "addressLocality": "Bordeaux",
-            "postalCode": "33200",
-            "addressCountry": "FR"
-          },
-          "telephone": "+33-5-56-67-78-89",
-          "openingHours": "Mo-Fr 10:00-19:00",
-          "url": "https://suhailadhin.github.io/projet-9-Nina-Carducci/",
-          "image": "https://suhailadhin.github.io/projet-9-Nina-Carducci/assets/images/nina-560.webp"
-        }
-        </script>        
+       <!-- Rich Snippet -->
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "ProfessionalService",
+			"name": "Nina Carducci",
+			"image": "https://suhailadhin.github.io/projet-9-Nina-Carducci/assets/images/nina-560.webp",
+			"address": {
+				"@type": "PostalAddress",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressLocality": "Bordeaux",
+				"addressRegion": "Nouvelle-Aquitaine",
+				"postalCode": "33200",
+				"addressCountry": "France"
+			},
+			"url": "https://suhailadhin.github.io/projet-9-Nina-Carducci/",
+			"telephone": "+33556677889",
+			"openingHoursSpecification": [
+				{
+					"@type": "OpeningHoursSpecification",
+					"dayOfWeek": [
+						"Monday",
+						"Tuesday",
+						"Wednesday",
+						"Thursday",
+						"Friday"
+					],
+					"opens": "10:00",
+					"closes": "19:00"
+				}
+			],
+			"priceRange": "De 50€ par photo retouchée à 350€ par demi journée pour un shooting"
+		}
+	</script>    
 
 </head>
 <body>
